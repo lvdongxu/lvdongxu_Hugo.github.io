@@ -65,10 +65,10 @@ sections:
         - title: Intern
           company: Huixi Technology
           company_url: ''
-          # company_logo: org-gc
+          company_logo: org-gc
           location: Shanghai
-          date_start: '2022-03-01'
-          date_end: 'present'
+          date_start: 'March 2022'
+          date_end: ''
           description: |2-
               Responsibilities include:
 
