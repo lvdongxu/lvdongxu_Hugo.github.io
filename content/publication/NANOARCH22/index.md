@@ -1,19 +1,21 @@
 ---
-title: 'FLNA: An Energy-Efficient Point Cloud Feature Learning Accelerator with Dataflow Decoupling'
+title: 'An Efficient Stochastic Convolution Accelerator based on Pseudo-Sobol Sequences'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Dongxu Lyu
+  - Aokun Hu
+  - Wenjie Li
+  - *Dongxu Lyu*
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-09-15T00:00:00Z'
-doi: '10.1109/DAC56929.2023.10247674'
+date: '2023-05-31T00:00:00Z'
+doi: '10.1145/3565478.3572543'
 
 
 # Schedule page publish date (NOT publication's date).
@@ -25,10 +27,10 @@ publishDate: '2023-11-26T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2023 60th ACM/IEEE Design Automation Conference (DAC)*
-publication_short: In *DAC'23*
+publication: In *17th ACM International Symposium on Nanoscale Architectures (NANOARCH)*
+publication_short: In *NANOARCH'22*
 
-abstract: Grid-based feature learning network plays a key role in recent point-cloud based 3D perception. However, high point sparsity and special operators lead to large memory footprint and long processing latency, posing great challenges to hardware acceleration. We propose FLNA, a novel feature learning accelerator with algorithm-architecture co-design. At algorithm level, the dataflow-decoupled graph is adopted to reduce 86% computation by exploiting inherent sparsity and concat redundancy. At hardware design level, we customize a pipelined architecture with block-wise processing, and introduce transposed SRAM strategy to save 82.1% access power. Implemented on a 40nm technology, FLNA achieves 13.4 − 43.3× speedup over RTX 2080Ti GPU. It rivals the state-of-the-art accelerator by 1.21× energy-efficiency improvement with 50.8% latency reduction.
+abstract: Stochastic computing (SC) has been recognized as an efficient technique to reduce the hardware consumption of a convolution neural network (CNN) accelerator. An SC-CNN needs a long SC sequence length to produce accurate results, which leads to a low throughput. In order to achieve better accuracy and higher throughput, highly parallelized SC-CNNs based on Sobol sequences have been extensively used. However, high parallelism leads to undesirable hardware overhead. To solve this problem, this paper proposes Pseudo-Sobol sequences and accordingly develops an efficient parallel computation-conversion hybrid convolution architecture, which fuses the SC-computation units and S2B units. With negligible accuracy loss, the proposed architecture can increase energy and area efficiency by 41% and 36%, respectively.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -43,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10247674'
+url_pdf: 'https://dl.acm.org/doi/abs/10.1145/3565478.3572543'
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''

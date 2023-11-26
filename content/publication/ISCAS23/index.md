@@ -1,19 +1,21 @@
 ---
-title: 'FLNA: An Energy-Efficient Point Cloud Feature Learning Accelerator with Dataflow Decoupling'
+title: 'O^3NMS: An Out-Of-Order-Based Low-Latency Accelerator for Non-Maximum Suppression'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Dongxu Lyu
+  - Yuzhou Chen
+  - Jinming Zhang
+  - **Dongxu Lyu**
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-09-15T00:00:00Z'
-doi: '10.1109/DAC56929.2023.10247674'
+date: '2023-07-21T00:00:00Z'
+doi: ' 10.1109/ISCAS46773.2023.10181731'
 
 
 # Schedule page publish date (NOT publication's date).
@@ -25,10 +27,10 @@ publishDate: '2023-11-26T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2023 60th ACM/IEEE Design Automation Conference (DAC)*
-publication_short: In *DAC'23*
+publication: In *2023 IEEE International Symposium on Circuits and Systems (ISCAS)*
+publication_short: In *ISCAS'23*
 
-abstract: Grid-based feature learning network plays a key role in recent point-cloud based 3D perception. However, high point sparsity and special operators lead to large memory footprint and long processing latency, posing great challenges to hardware acceleration. We propose FLNA, a novel feature learning accelerator with algorithm-architecture co-design. At algorithm level, the dataflow-decoupled graph is adopted to reduce 86% computation by exploiting inherent sparsity and concat redundancy. At hardware design level, we customize a pipelined architecture with block-wise processing, and introduce transposed SRAM strategy to save 82.1% access power. Implemented on a 40nm technology, FLNA achieves 13.4 − 43.3× speedup over RTX 2080Ti GPU. It rivals the state-of-the-art accelerator by 1.21× energy-efficiency improvement with 50.8% latency reduction.
+abstract: Non-maximum suppression (NMS) is an important post-processing method to eliminate overlapping bounding boxes in object detection neural networks. Suffering from quadratic computational complexity and frequent memory access, NMS has become a bottleneck of detection latency. To deal with this problem, we propose out-of-order NMS (O 3 NMS), a hardware- software co-optimization approach to reduce latency as well as area overhead of NMS accelerator. In order to reduce startup latency, we devise the O3NMS algorithm that removes pre-sort operation. To efficiently support O 3 NMS algorithm, we design a specialized hardware accelerator. Our design has been implemented in both Xilinx FPGA and SIMC 40nm technology. Experiments demonstrate O 3 NMS accelerator achieves 2.51 x speedup as well as 37 % reduction in FPGA source utilization compared with the state-of-the-art (SOTA) NMS accelerator.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -43,7 +45,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10247674'
+url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10181731'
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''

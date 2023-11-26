@@ -1,20 +1,19 @@
 ---
-title: 'FLNA: An Energy-Efficient Point Cloud Feature Learning Accelerator with Dataflow Decoupling'
+title: 'SpOctA: A 3D Sparse Convolution Accelerator with Octree-Encoding-Based Map Search and Inherent Sparsity-Aware Processing'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Dongxu Lyu
+  - **Dongxu Lyu**
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: '2023-09-15T00:00:00Z'
-doi: '10.1109/DAC56929.2023.10247674'
-
+date: '2023-10-28T00:00:00Z'
+doi: ''
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2023-11-26T00:00:00Z'
@@ -25,10 +24,11 @@ publishDate: '2023-11-26T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2023 60th ACM/IEEE Design Automation Conference (DAC)*
-publication_short: In *DAC'23*
 
-abstract: Grid-based feature learning network plays a key role in recent point-cloud based 3D perception. However, high point sparsity and special operators lead to large memory footprint and long processing latency, posing great challenges to hardware acceleration. We propose FLNA, a novel feature learning accelerator with algorithm-architecture co-design. At algorithm level, the dataflow-decoupled graph is adopted to reduce 86% computation by exploiting inherent sparsity and concat redundancy. At hardware design level, we customize a pipelined architecture with block-wise processing, and introduce transposed SRAM strategy to save 82.1% access power. Implemented on a 40nm technology, FLNA achieves 13.4 − 43.3× speedup over RTX 2080Ti GPU. It rivals the state-of-the-art accelerator by 1.21× energy-efficiency improvement with 50.8% latency reduction.
+publication: In *2023 42th IEEE/ACM International Conference on Computer-Aided Design (ICCAD)*
+publication_short: In *ICCAD'23*
+
+abstract: Point-cloud-based 3D perception has attracted great attention in various applications including robotics, autonomous driving and AR/VR. In particular, the 3D sparse convolution (SpConv) network has emerged as one of the most popular backbones due to its excellent performance. However, it poses severe challenges to real-time perception on general-purpose platforms, such as lengthy map search latency, high computation cost, and enormous memory footprint. In this paper, we propose SpOctA, a SpConv accelerator that enables high-speed and energy-efficient point cloud processing. SpOctA parallelizes the map search by utilizing algorithm-architecture co-optimization based on octree encoding, thereby achieving 8.8-21.2x search speedup. It also attenuates the heavy computational workload by exploiting inherent sparsity of each voxel, which eliminates computation redundancy and saves 44.4-79.1% processing latency. To optimize on-chip memory management, a SpConv-oriented non-uniform caching strategy is introduced to reduce external memory access energy by 57.6% on average. Implemented on a 40nm technology and extensively evaluated on representative benchmarks, SpOctA rivals the state-of-the-art SpConv accelerators by 1.1-6.9x speedup with 1.5-3.1x energy efficiency improvement.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -43,7 +43,7 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'https://ieeexplore.ieee.org/abstract/document/10247674'
+url_pdf: 'https://arxiv.org/abs/2308.09249'
 # url_code: ''
 # url_dataset: ''
 # url_poster: ''
