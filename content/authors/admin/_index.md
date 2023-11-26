@@ -2,8 +2,8 @@
 # Display name
 title: Dongxu Lyu 吕东旭
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# # Name pronunciation (optional)
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
 first_name: Dongxu
@@ -36,15 +36,15 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Electrical Science and Technology
+      institution: Shanghai Jiao Tong University
+      year: 2025(expected)
+    - course: BSc in Microelectronics Science and Engineering
+      institution: Shanghai Jiao Tong University
+      year: 2020
+    # - course: MEng in Artificial Intelligence
+    #   institution: Massachusetts Institute of Technology
+    #   year: 2009
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -91,24 +91,24 @@ skills:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: '/#contact'
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/GeorgeCushen
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user%253DK1JGQBIAAAAJ%2526hl%253Den
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://github.com/lvdongxu
+  # - icon: linkedin
+  #   icon_pack: fab
+  #   link: https://www.linkedin.com/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -120,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm a Ph.D candidate for Electrical Science and Technology at the Department of Micro/Nano Electronics, Shanghai Jiao Tong University, Shanghai, China, and under the supervision of Professor Guanghui He. My current research interests are at the intersection of autonomous driving system, digital circuits and systems. The current focus are ASIC design for AI applications like 3D perception for autonomous driving, stochastic computing circuit design and massive MIMO wireless detector.
 {style="text-align: justify;"}
