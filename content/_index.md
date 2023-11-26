@@ -67,7 +67,7 @@ sections:
           company_url: ''
           company_logo: org-gc
           location: Shanghai
-          date_start: 'March 2022'
+          date_start: 'Mar 2022'
           date_end: ''
           description: |2-
               Responsibilities include:
