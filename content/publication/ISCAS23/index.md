@@ -7,7 +7,7 @@ title: 'O^3NMS: An Out-Of-Order-Based Low-Latency Accelerator for Non-Maximum Su
 authors:
   - Yuzhou Chen
   - Jinming Zhang
-  - **Dongxu Lyu**
+  - *Dongxu Lyu*
 
 # Author notes (optional)
 # author_notes:
