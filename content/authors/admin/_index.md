@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dongxu Lyu 吕东旭
+title: Dongxu Lyu
 
 # # Name pronunciation (optional)
 # name_pronunciation: Chien Shiung Wu
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D candidate for Electrical Science and Technology
+role: Ph.D candidate for Electronic Science and Technology
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -36,7 +36,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Electrical Science and Technology
+    - course: PhD in Electronic Science and Technology
       institution: Shanghai Jiao Tong University
       year: 2025(expected)
     - course: BSc in Microelectronics Science and Engineering
