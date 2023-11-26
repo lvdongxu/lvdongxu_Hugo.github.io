@@ -5,13 +5,11 @@ title: 'O^3NMS: An Out-Of-Order-Based Low-Latency Accelerator for Non-Maximum Su
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Yuzhou Chen
-  - Jinming Zhang
-  - *Dongxu Lyu*
+  - Dongxu Lyu
 
 # Author notes (optional)
-# author_notes:
-#   - 'Equal contribution'
+author_notes:
+  - '3rd Author'
 #   - 'Equal contribution'
 
 date: '2023-07-21T00:00:00Z'
