@@ -112,9 +112,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
+  - icon: cv:
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/main.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
