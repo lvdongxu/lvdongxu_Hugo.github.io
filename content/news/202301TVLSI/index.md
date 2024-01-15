@@ -1,5 +1,5 @@
 ---
-title: *2024/01* One paper is accepted by IEEE TVLSI!
+title: 2024/01 One paper is accepted by IEEE TVLSI!
 subtitle: The extended paper of our **FLNA** (DAC'23) is accepted by IEEE TVLSI this January!
 
 # Summary for listings and search engines
