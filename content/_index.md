@@ -64,7 +64,7 @@ sections:
         exclude_featured: false
     design:
       columns: '2'
-      view: citation
+      view: list
   - block: experience
     content:
       title: Experience
@@ -87,9 +87,9 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Behavior modeling for specialized NPU
-              * RTL unit testing
-              * RTL unit design
+              * Build C/C++ behavior models for specialized NPU in Rhino Autonomous Driving Chip independently
+              * Unit&Integration Test of NPU RTL design
+              * NPU RTL design for matrix&vector units
         # - title: Professor of Semiconductor Physics
         #   company: University X
         #   company_url: ''
@@ -142,6 +142,33 @@ sections:
   #         url: ''
   #   design:
       # columns: '2'
+  - block: collection
+    id: news
+    content:
+      title: Recent News
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        author: ""
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: '2'
   # - block: collection
   #   id: posts
   #   content:
