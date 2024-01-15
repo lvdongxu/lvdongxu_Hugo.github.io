@@ -64,7 +64,7 @@ sections:
         exclude_featured: false
     design:
       columns: '2'
-      view: list
+      view: citation
   - block: experience
     content:
       title: Experience
@@ -153,7 +153,7 @@ sections:
       # Filter on criteria
       filters:
         folders:
-          - post
+          - news
         author: ""
         category: ""
         tag: ""
