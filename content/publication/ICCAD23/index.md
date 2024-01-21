@@ -4,11 +4,17 @@ title: 'SpOctA: A 3D Sparse Convolution Accelerator with Octree-Encoding-Based M
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
-authors: *Dongxu Lyu*, Zhenyu Li, Yuzhou Chen, Jinming Zhang, Ningyi Xu, Guanghui He
+authors:
+- <b>Dongxu Lyu</b>
+- Zhenyu Li
+- Yuzhou Chen
+- Jinming Zhang
+- Ningyi Xu
+- Guanghui He
 
 # Author notes (optional)
 # author_notes:
-#   - 'Equal contribution'
+#   - 'E'
 #   - 'Equal contribution'
 
 date: '2023-11-30T00:00:00Z'
