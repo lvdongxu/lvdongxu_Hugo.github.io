@@ -1,7 +1,8 @@
 ---
 title: "A 3.85-Gb/s 8 × 8 Soft-Output MIMO Detector With Lattice-Reduction-Aided Channel Preprocessing"
 authors:
-- Dongxu Lyu
+- Zhuojun Liang 
+- **Dongxu Lyu**
 author_notes:
 - "2nd Author"
 # - "2nd Author"
@@ -18,7 +19,8 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
-publication_short: "TVLSI'20"
+publication_short: *IEEE Transactions on Very Large Scale Integration Systems (TVLSI)*, 2020
+# publication_short: "TVLSI'20"
 
 abstract: This article presents an 8×8 lattice-reduction-aided (LRA) soft-output multiple-input multiple-output (MIMO) detector for Chinese enhanced ultrahigh throughput (EUHT) wireless local area network (LAN) standard. The preprocessing algorithm combining simplified-sorting Cholesky decomposition and low-complexity decoupled lattice reduction (LDLR) is proposed to reduce computational complexity and latency with parallelism improvement. In addition, K-best detection adopts a sorting-reduced strategy utilizing approximate ordered sequence. Compared with other published LRA K-best detection algorithms, simulation results show that our proposed algorithm has performance improvement. In addition, in order to save hardware resources, a folded K-best architecture and an optimized intermediate storage strategy are introduced. Furthermore, a fully pipelined VLSI architecture is designed in Semiconductor Manufacturing International Corporation (SMIC) 40-nm 1P9M technology to support the 8×8.64 -QAM MIMO-OFDM system. The detector can achieve 3.85-Gb/s data throughput at 641-MHz clock frequency with 0.71- μs latency. The proposed detector is competitive in terms of latency, throughput, and area efficiency to state-of-the-art works and can meet the data-rate requirement of the EUHT standard.
 

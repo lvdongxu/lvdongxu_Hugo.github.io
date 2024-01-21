@@ -5,7 +5,10 @@ title: 'An Efficient Stochastic Convolution Accelerator based on Pseudo-Sobol Se
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Dongxu Lyu
+  - Aokun Hu
+  - Wenjie Li
+  - **Dongxu Lyu**
+  - et
 
 # Author notes (optional)
 author_notes:
@@ -26,8 +29,8 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *17th ACM International Symposium on Nanoscale Architectures (NANOARCH)*
-publication_short: In *NANOARCH'22*
-
+publication_short: In *17th ACM International Symposium on Nanoscale Architectures (NANOARCH)*, 2022
+# publication_short: *NANOARCH'22*
 abstract: Stochastic computing (SC) has been recognized as an efficient technique to reduce the hardware consumption of a convolution neural network (CNN) accelerator. An SC-CNN needs a long SC sequence length to produce accurate results, which leads to a low throughput. In order to achieve better accuracy and higher throughput, highly parallelized SC-CNNs based on Sobol sequences have been extensively used. However, high parallelism leads to undesirable hardware overhead. To solve this problem, this paper proposes Pseudo-Sobol sequences and accordingly develops an efficient parallel computation-conversion hybrid convolution architecture, which fuses the SC-computation units and S2B units. With negligible accuracy loss, the proposed architecture can increase energy and area efficiency by 41% and 36%, respectively.
 
 # Summary. An optional shortened abstract.
