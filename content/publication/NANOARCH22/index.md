@@ -5,11 +5,11 @@ title: 'An Efficient Stochastic Convolution Accelerator based on Pseudo-Sobol Se
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Aokun Hu, Wenjie Li, **Dongxu Lyu**, Guanghui He 
+  - Aokun Hu, Wenjie Li, Dongxu Lyu
+  - Guanghui He 
 # Author notes (optional)
-# author_notes:
-#   - '3rd Author'
-#   - 'Equal contribution'
+author_notes:
+  - '3rd Author'
 
 date: '2023-05-31T00:00:00Z'
 doi: '10.1145/3565478.3572543'

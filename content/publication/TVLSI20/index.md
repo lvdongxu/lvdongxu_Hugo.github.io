@@ -1,11 +1,9 @@
 ---
 title: "A 3.85-Gb/s 8 × 8 Soft-Output MIMO Detector With Lattice-Reduction-Aided Channel Preprocessing"
 authors:
-- Zhuojun Liang
-- Dongxu Lyu**
+- Zhuojun Liang, Dongxu Lyu
 - Chao Cui, Hai-Bao Chen, Weifeng He, Weiguang Sheng, Naifeng Jing, Zhigang Mao, Guanghui He
 author_notes:
-- 
 - "2nd Author"
 date: "2020-11-23T00:00:00Z"
 doi: "10.1109/TVLSI.2020.3036822"
