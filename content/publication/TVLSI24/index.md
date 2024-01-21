@@ -2,9 +2,11 @@
 title: "FLNA: Flexibly Accelerating Feature Learning Networks for Large-Scale Point Clouds with Efficient Dataflow Decoupling"
 authors:
 - Dongxu Lyu
-# author_notes:
-# - "2nd Author"
-# - "2nd Author"
+- Zhenyu Li
+- Yuzhou Chen, Gang Wang, Weifeng He, Ningyi Xu, Guanghui He
+author_notes:
+- "Equal Contribution"
+- "Equal Contribution"
 date: "2024-01-14T00:00:00Z"
 doi: "10.1109/TVLSI.2024.3355126"
 
@@ -18,7 +20,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE Transactions on Very Large Scale Integration (VLSI) Systems"
-publication_short: In "IEEE Transactions on Very Large Scale Integration Systems (TVLSI)", 2024
+publication_short: In *IEEE Transactions on Very Large Scale Integration Systems (TVLSI)*, 2024
 
 abstract: Point cloud based 3D perception is poised to become a key workload on various applications. It always leverages a feature learning network (FLN) before backbones to obtain uniform representation from the scattered points. Grid-based FLN (GFLN) that partitions point clouds into uniform grids becomes the main category in recent state-of-the-art works. However, it heavily suffers from significant memory and com-putation inefficiency associated with high point sparsity and critical data dependency. To address these troubles, we pro-pose FLNA, a grid-based feature learning network accelerator with algorithm-architecture co-optimization for large-scale point clouds. At algorithm level, the dataflow-decoupling strategy is adopted to alleviate the processing bottlenecks from pipeline dependency, which also reduces 78.3% computation cost by exploiting the redundancy from inherent sparsity and special operators. Based on the algorithm co-optimization, an effective architecture is designed with efficient GFLN mapping and block-wise processing strategies. It manages to improve on-chip memory efficiency tremendously through diverse techniques, including linked-list-based block look-up-table and transposed feature organization. Extensively evaluated on representative benchmarks, FLNA achieves 69.9-264.4× speedup with more than 99% energy savings compared to multiple GPUs and CPU. It also demonstrates substantial performance boost over the state-of-the-art point cloud accelerators while providing superior support of large-scale point clouds.
 
