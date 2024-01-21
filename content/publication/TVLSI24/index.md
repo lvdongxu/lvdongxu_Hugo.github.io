@@ -29,7 +29,7 @@ abstract: Point cloud based 3D perception is poised to become a key workload on 
 
 tags:
 - IEEE Transaction
-featured: true
+featured: false
 
 # links:
 # - name: ""

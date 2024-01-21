@@ -36,7 +36,7 @@ abstract: Grid-based feature learning network plays a key role in recent point-c
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:

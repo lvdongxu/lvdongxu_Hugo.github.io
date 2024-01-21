@@ -41,7 +41,7 @@ abstract: Point-cloud-based 3D perception has attracted great attention in vario
 tags: []
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
