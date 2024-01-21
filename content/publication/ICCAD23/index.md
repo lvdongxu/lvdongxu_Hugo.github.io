@@ -4,8 +4,7 @@ title: 'SpOctA: A 3D Sparse Convolution Accelerator with Octree-Encoding-Based M
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
-authors:
-  - Dongxu Lyu
+authors: *Dongxu Lyu*, Zhenyu Li, Yuzhou Chen, Jinming Zhang, Ningyi Xu, Guanghui He
 
 # Author notes (optional)
 # author_notes:
@@ -26,7 +25,8 @@ publication_types: ['paper-conference']
 # Publication name and optional abbreviated publication name.
 
 publication: In *2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)*
-publication_short: In *ICCAD'23*
+publication_short: In *2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)*, 2023
+# publication_short: In *ICCAD'23*
 
 abstract: Point-cloud-based 3D perception has attracted great attention in various applications including robotics, autonomous driving and AR/VR. In particular, the 3D sparse convolution (SpConv) network has emerged as one of the most popular backbones due to its excellent performance. However, it poses severe challenges to real-time perception on general-purpose platforms, such as lengthy map search latency, high computation cost, and enormous memory footprint. In this paper, we propose SpOctA, a SpConv accelerator that enables high-speed and energy-efficient point cloud processing. SpOctA parallelizes the map search by utilizing algorithm-architecture co-optimization based on octree encoding, thereby achieving 8.8-21.2x search speedup. It also attenuates the heavy computational workload by exploiting inherent sparsity of each voxel, which eliminates computation redundancy and saves 44.4-79.1% processing latency. To optimize on-chip memory management, a SpConv-oriented non-uniform caching strategy is introduced to reduce external memory access energy by 57.6% on average. Implemented on a 40nm technology and extensively evaluated on representative benchmarks, SpOctA rivals the state-of-the-art SpConv accelerators by 1.1-6.9x speedup with 1.5-3.1x energy efficiency improvement.
 

@@ -4,8 +4,7 @@ title: 'O^3NMS: An Out-Of-Order-Based Low-Latency Accelerator for Non-Maximum Su
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
-authors:
-  - Dongxu Lyu
+authors: Yuzhou Chen, Jinming Zhang, *Dongxu Lyu*, Xi Yu, Guanghui He
 
 # Author notes (optional)
 author_notes:
@@ -26,8 +25,8 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: In *2023 IEEE International Symposium on Circuits and Systems (ISCAS)*
-publication_short: In *ISCAS'23*
-
+publication_short: In *2023 IEEE International Symposium on Circuits and Systems (ISCAS)*, 2023
+# publication_short: In *ISCAS'23*
 abstract: Non-maximum suppression (NMS) is an important post-processing method to eliminate overlapping bounding boxes in object detection neural networks. Suffering from quadratic computational complexity and frequent memory access, NMS has become a bottleneck of detection latency. To deal with this problem, we propose out-of-order NMS (O 3 NMS), a hardware- software co-optimization approach to reduce latency as well as area overhead of NMS accelerator. In order to reduce startup latency, we devise the O3NMS algorithm that removes pre-sort operation. To efficiently support O 3 NMS algorithm, we design a specialized hardware accelerator. Our design has been implemented in both Xilinx FPGA and SIMC 40nm technology. Experiments demonstrate O 3 NMS accelerator achieves 2.51 x speedup as well as 37 % reduction in FPGA source utilization compared with the state-of-the-art (SOTA) NMS accelerator.
 
 # Summary. An optional shortened abstract.
